@@ -1,0 +1,29 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "mochaExplorer.files": "test/**/*.test.ts",
+  "mochaExplorer.require": "ts-node/register",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "conventionalCommits.scopes": [
+    "tools",
+    "architecture",
+    "config",
+    "docu",
+    "project",
+    "gitex-flow",
+    "logging",
+    "tests",
+    "security",
+    "hotfix",
+    "versioning",
+    "release",
+    "client",
+    "api",
+    "support",
+    "changelog",
+    "prerelease"
+  ]
+}

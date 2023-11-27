@@ -1,0 +1,13 @@
+# Don't track content of these folders
+node_modules/
+example/
+bin/
+test_repo/
+doc/
+
+# Exclude js files from typescript folders
+test/**/*.js
+src/**/*.js
+out/**/*
+build/**/*
+log/**/*
